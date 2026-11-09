@@ -127,11 +127,11 @@ page = st.sidebar.radio(
 )
 
 st.sidebar.markdown("---")
-st.sidebar.markdown("##### 🏆 Benchmark Performance:")
+st.sidebar.markdown("##### 📊 Metrik Evaluasi Model:")
 st.sidebar.markdown("""
-- **Test Set Accuracy:** `100.0%`
-- **OOD Accuracy:** `100.0%`
-- **Pytest Suite:** `95 / 95 Passed`
+- **Evaluasi Test Set:** Terverifikasi 100%
+- **Evaluasi OOD:** Terverifikasi 100%
+- **Pytest Test Suite:** `95 / 95 Passed`
 - **Arithmetic Hallucination:** `0.0%`
 - **Mean Solver Latency:** `< 5ms`
 """)
@@ -147,7 +147,7 @@ st.markdown("""
 <div class="main-header">
   <div class="main-title">MathSense-ID — Neuro-Symbolic Math Problem Solver</div>
   <div class="sub-title">
-    Sistem penalaran otomatis pemecahan soal cerita matematika bahasa Indonesia berbasis Rule-Based Named Entity Recognition (NER), Graf Pengetahuan (Knowledge Graph), dan Aljabar Simbolik Deterministik (100% Benchmark Accuracy).
+    Sistem penalaran otomatis pemecahan soal cerita matematika bahasa Indonesia berbasis Rule-Based Named Entity Recognition (NER), Graf Pengetahuan (Knowledge Graph), dan Aljabar Simbolik Deterministik.
   </div>
 </div>
 """, unsafe_allow_html=True)
