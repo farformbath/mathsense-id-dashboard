@@ -1,8 +1,8 @@
 # 🧮 MathSense-ID — Neuro-Symbolic Math Word Problem Solver
 
 > **Indonesian Math Word Problem (MWP) Reasoning System**  
-> *Rule-based Named Entity Recognition (NER), Knowledge Graph (KG), and Deterministic Symbolic Algebra Engine.*
-
+> *Rule-based Named Entity Recognition (NER), Knowledge Graph (KG), and Deterministic Symbolic Algebra Engine.*  
+> [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://mathsenseid-solver.streamlit.app/)
 MathSense-ID adalah sistem penalaran otomatis pemecahan soal cerita matematika berbahasa Indonesia berbasis pendekatan **Neuro-Simbolik**. Sistem ini mengeliminasi halusinasi aritmatika (*arithmetic hallucination*) yang sering terjadi pada model Large Language Model (LLM) dengan memisahkan pemahaman bahasa dari kalkulasi matematis eksak.
 
 ---
