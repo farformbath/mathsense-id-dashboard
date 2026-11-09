@@ -1,0 +1,2582 @@
+[
+  {
+    "id": "T1_014",
+    "text": "Berapa harga 1 roti jika Siti membayar Rp 30.000 untuk membeli 6 roti?",
+    "entities_gt": [
+      {
+        "text": "6 roti",
+        "value": 6.0,
+        "unit": "roti",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "30.000",
+        "value": 30000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "6 roti",
+        "tail": "30.000",
+        "relation": "membeli_seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "6*x=30000",
+    "solution_gt": 5000.0,
+    "template_id": "T1",
+    "difficulty": "easy"
+  },
+  {
+    "id": "T1_025",
+    "text": "Di toko, Rudi membayar Rp 20.000 untuk 2 mangga. Berapa harga 1 mangga tersebut?",
+    "entities_gt": [
+      {
+        "text": "2 mangga",
+        "value": 2.0,
+        "unit": "mangga",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "20.000",
+        "value": 20000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "2 mangga",
+        "tail": "20.000",
+        "relation": "membeli_seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "2*x=20000",
+    "solution_gt": 10000.0,
+    "template_id": "T1",
+    "difficulty": "easy"
+  },
+  {
+    "id": "T1_026",
+    "text": "Ibu Budi berbelanja di pasar dan mengeluarkan uang Rp 40.000 untuk 5 pisang. Berapakah harga 1 pisang?",
+    "entities_gt": [
+      {
+        "text": "5 pisang",
+        "value": 5.0,
+        "unit": "pisang",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "40.000",
+        "value": 40000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "5 pisang",
+        "tail": "40.000",
+        "relation": "membeli_seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "5*x=40000",
+    "solution_gt": 8000.0,
+    "template_id": "T1",
+    "difficulty": "easy"
+  },
+  {
+    "id": "T1_030",
+    "text": "Tiara pergi berbelanja membeli 6 pulpen dengan biaya Rp 60.000. Berapa rupiah harga 1 pulpen?",
+    "entities_gt": [
+      {
+        "text": "6 pulpen",
+        "value": 6.0,
+        "unit": "pulpen",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "60.000",
+        "value": 60000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "6 pulpen",
+        "tail": "60.000",
+        "relation": "membeli_seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "6*x=60000",
+    "solution_gt": 10000.0,
+    "template_id": "T1",
+    "difficulty": "easy"
+  },
+  {
+    "id": "T1_004",
+    "text": "Berapa harga 1 pisang jika Putri membayar Rp 6.000 untuk membeli 2 pisang?",
+    "entities_gt": [
+      {
+        "text": "2 pisang",
+        "value": 2.0,
+        "unit": "pisang",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "6.000",
+        "value": 6000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "2 pisang",
+        "tail": "6.000",
+        "relation": "membeli_seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "2*x=6000",
+    "solution_gt": 3000.0,
+    "template_id": "T1",
+    "difficulty": "easy"
+  },
+  {
+    "id": "T1_051",
+    "text": "Siska membeli 15 pensil seharga Rp 180.000. Berapa harga 1 pensil?",
+    "entities_gt": [
+      {
+        "text": "15 pensil",
+        "value": 15.0,
+        "unit": "pensil",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "180.000",
+        "value": 180000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "15 pensil",
+        "tail": "180.000",
+        "relation": "membeli_seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "15*x=180000",
+    "solution_gt": 12000.0,
+    "template_id": "T1",
+    "difficulty": "medium"
+  },
+  {
+    "id": "T1_039",
+    "text": "Siti membayar Rp 120.000 dan mendapatkan 8 biskuit. Berapa harga 1 biskuit?",
+    "entities_gt": [
+      {
+        "text": "8 biskuit",
+        "value": 8.0,
+        "unit": "biskuit",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "120.000",
+        "value": 120000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "8 biskuit",
+        "tail": "120.000",
+        "relation": "membeli_seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "8*x=120000",
+    "solution_gt": 15000.0,
+    "template_id": "T1",
+    "difficulty": "medium"
+  },
+  {
+    "id": "T1_040",
+    "text": "Rina pergi berbelanja membeli 9 lemper dengan biaya Rp 135.000. Berapa rupiah harga 1 lemper?",
+    "entities_gt": [
+      {
+        "text": "9 lemper",
+        "value": 9.0,
+        "unit": "lemper",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "135.000",
+        "value": 135000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "9 lemper",
+        "tail": "135.000",
+        "relation": "membeli_seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "9*x=135000",
+    "solution_gt": 15000.0,
+    "template_id": "T1",
+    "difficulty": "medium"
+  },
+  {
+    "id": "T1_057",
+    "text": "Untuk keperluan rumah, Wati membeli 9 kue seharga Rp 225.000. Berapa harga 1 kue?",
+    "entities_gt": [
+      {
+        "text": "9 kue",
+        "value": 9.0,
+        "unit": "kue",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "225.000",
+        "value": 225000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "9 kue",
+        "tail": "225.000",
+        "relation": "membeli_seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "9*x=225000",
+    "solution_gt": 25000.0,
+    "template_id": "T1",
+    "difficulty": "medium"
+  },
+  {
+    "id": "T1_037",
+    "text": "Untuk keperluan rumah, Sri membeli 9 donat seharga Rp 144.000. Berapa harga 1 donat?",
+    "entities_gt": [
+      {
+        "text": "9 donat",
+        "value": 9.0,
+        "unit": "donat",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "144.000",
+        "value": 144000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "9 donat",
+        "tail": "144.000",
+        "relation": "membeli_seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "9*x=144000",
+    "solution_gt": 16000.0,
+    "template_id": "T1",
+    "difficulty": "medium"
+  },
+  {
+    "id": "T1_088",
+    "text": "Total uang sejumlah Rp 40.000 dibayarkan oleh Ayu untuk 2,5 kg telur. Berapa harga 1 kg telur?",
+    "entities_gt": [
+      {
+        "text": "2,5 kg telur",
+        "value": 2.5,
+        "unit": "kg telur",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "40.000",
+        "value": 40000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "2,5 kg telur",
+        "tail": "40.000",
+        "relation": "membeli_seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "2.5*x=40000",
+    "solution_gt": 16000.0,
+    "template_id": "T1",
+    "difficulty": "hard"
+  },
+  {
+    "id": "T1_076",
+    "text": "Ibu Siska berbelanja di pasar dan mengeluarkan uang Rp 56.000 untuk 3,5 kg beras. Berapakah harga 1 kg beras?",
+    "entities_gt": [
+      {
+        "text": "3,5 kg beras",
+        "value": 3.5,
+        "unit": "kg beras",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "56.000",
+        "value": 56000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "3,5 kg beras",
+        "tail": "56.000",
+        "relation": "membeli_seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "3.5*x=56000",
+    "solution_gt": 16000.0,
+    "template_id": "T1",
+    "difficulty": "hard"
+  },
+  {
+    "id": "T1_090",
+    "text": "Rudi pergi berbelanja membeli 25 jeruk dengan biaya Rp 1.125.000. Berapa rupiah harga 1 jeruk?",
+    "entities_gt": [
+      {
+        "text": "25 jeruk",
+        "value": 25.0,
+        "unit": "jeruk",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "1.125.000",
+        "value": 1125000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "25 jeruk",
+        "tail": "1.125.000",
+        "relation": "membeli_seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "25*x=1125000",
+    "solution_gt": 45000.0,
+    "template_id": "T1",
+    "difficulty": "hard"
+  },
+  {
+    "id": "T1_071",
+    "text": "Maya membeli 20 salak seharga Rp 700.000. Berapa harga 1 salak?",
+    "entities_gt": [
+      {
+        "text": "20 salak",
+        "value": 20.0,
+        "unit": "salak",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "700.000",
+        "value": 700000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "20 salak",
+        "tail": "700.000",
+        "relation": "membeli_seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "20*x=700000",
+    "solution_gt": 35000.0,
+    "template_id": "T1",
+    "difficulty": "hard"
+  },
+  {
+    "id": "T1_091",
+    "text": "Siska membeli 1,5 kg beras seharga Rp 21.000. Berapa harga 1 kg beras?",
+    "entities_gt": [
+      {
+        "text": "1,5 kg beras",
+        "value": 1.5,
+        "unit": "kg beras",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "21.000",
+        "value": 21000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "1,5 kg beras",
+        "tail": "21.000",
+        "relation": "membeli_seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "1.5*x=21000",
+    "solution_gt": 14000.0,
+    "template_id": "T1",
+    "difficulty": "hard"
+  },
+  {
+    "id": "T2_001",
+    "text": "Budi punya 10 apel, membeli 5 lagi. Berapa total?",
+    "entities_gt": [
+      {
+        "text": "10 apel",
+        "value": 10.0,
+        "unit": "apel",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "5",
+        "value": 5.0,
+        "unit": "apel",
+        "role": "quantity",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "10 apel",
+        "tail": "5",
+        "relation": "membeli_lagi",
+        "operation": "+",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=10+5",
+    "solution_gt": 15.0,
+    "template_id": "T2",
+    "difficulty": "easy"
+  },
+  {
+    "id": "T2_029",
+    "text": "Kemarin Surya mengoleksi 12 pensil, hari ini membeli 3 lagi. Berapa total?",
+    "entities_gt": [
+      {
+        "text": "12 pensil",
+        "value": 12.0,
+        "unit": "pensil",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "3",
+        "value": 3.0,
+        "unit": "pensil",
+        "role": "quantity",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "12 pensil",
+        "tail": "3",
+        "relation": "membeli_lagi",
+        "operation": "+",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=12+3",
+    "solution_gt": 15.0,
+    "template_id": "T2",
+    "difficulty": "easy"
+  },
+  {
+    "id": "T2_011",
+    "text": "Farhan punya 5 spidol, membeli 4 lagi. Berapa total?",
+    "entities_gt": [
+      {
+        "text": "5 spidol",
+        "value": 5.0,
+        "unit": "spidol",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "4",
+        "value": 4.0,
+        "unit": "spidol",
+        "role": "quantity",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "5 spidol",
+        "tail": "4",
+        "relation": "membeli_lagi",
+        "operation": "+",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=5+4",
+    "solution_gt": 9.0,
+    "template_id": "T2",
+    "difficulty": "easy"
+  },
+  {
+    "id": "T2_021",
+    "text": "Budi punya 10 kartu, membeli 5 lagi. Berapa total?",
+    "entities_gt": [
+      {
+        "text": "10 kartu",
+        "value": 10.0,
+        "unit": "kartu",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "5",
+        "value": 5.0,
+        "unit": "kartu",
+        "role": "quantity",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "10 kartu",
+        "tail": "5",
+        "relation": "membeli_lagi",
+        "operation": "+",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=10+5",
+    "solution_gt": 15.0,
+    "template_id": "T2",
+    "difficulty": "easy"
+  },
+  {
+    "id": "T2_024",
+    "text": "Mula-mula Hendra mengumpulkan 5 jeruk, lalu mendapat tambahan 5 lagi. Berapa total?",
+    "entities_gt": [
+      {
+        "text": "5 jeruk",
+        "value": 5.0,
+        "unit": "jeruk",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "5",
+        "value": 5.0,
+        "unit": "jeruk",
+        "role": "quantity",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "5 jeruk",
+        "tail": "5",
+        "relation": "membeli_lagi",
+        "operation": "+",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=5+5",
+    "solution_gt": 10.0,
+    "template_id": "T2",
+    "difficulty": "easy"
+  },
+  {
+    "id": "T2_041",
+    "text": "Budi punya 45 kelereng, membeli 18 lagi. Berapa total?",
+    "entities_gt": [
+      {
+        "text": "45 kelereng",
+        "value": 45.0,
+        "unit": "kelereng",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "18",
+        "value": 18.0,
+        "unit": "kelereng",
+        "role": "quantity",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "45 kelereng",
+        "tail": "18",
+        "relation": "membeli_lagi",
+        "operation": "+",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=45+18",
+    "solution_gt": 63.0,
+    "template_id": "T2",
+    "difficulty": "medium"
+  },
+  {
+    "id": "T2_057",
+    "text": "Anton membawa 20 kue dan adiknya memberi 25 lagi. Berapa total?",
+    "entities_gt": [
+      {
+        "text": "20 kue",
+        "value": 20.0,
+        "unit": "kue",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "25",
+        "value": 25.0,
+        "unit": "kue",
+        "role": "quantity",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "20 kue",
+        "tail": "25",
+        "relation": "membeli_lagi",
+        "operation": "+",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=20+25",
+    "solution_gt": 45.0,
+    "template_id": "T2",
+    "difficulty": "medium"
+  },
+  {
+    "id": "T2_046",
+    "text": "Dimas menyimpan 25 jeruk. Ia membeli lagi 12 jeruk. Berapa total?",
+    "entities_gt": [
+      {
+        "text": "25 jeruk",
+        "value": 25.0,
+        "unit": "jeruk",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "12",
+        "value": 12.0,
+        "unit": "jeruk",
+        "role": "quantity",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "25 jeruk",
+        "tail": "12",
+        "relation": "membeli_lagi",
+        "operation": "+",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=25+12",
+    "solution_gt": 37.0,
+    "template_id": "T2",
+    "difficulty": "medium"
+  },
+  {
+    "id": "T2_067",
+    "text": "Ratna membawa 32 apel dan adiknya memberi 22 lagi. Berapa total?",
+    "entities_gt": [
+      {
+        "text": "32 apel",
+        "value": 32.0,
+        "unit": "apel",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "22",
+        "value": 22.0,
+        "unit": "apel",
+        "role": "quantity",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "32 apel",
+        "tail": "22",
+        "relation": "membeli_lagi",
+        "operation": "+",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=32+22",
+    "solution_gt": 54.0,
+    "template_id": "T2",
+    "difficulty": "medium"
+  },
+  {
+    "id": "T2_050",
+    "text": "Aditya sudah punya 50 buku, kemudian membeli 22 lagi di toko. Berapa total?",
+    "entities_gt": [
+      {
+        "text": "50 buku",
+        "value": 50.0,
+        "unit": "buku",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "22",
+        "value": 22.0,
+        "unit": "buku",
+        "role": "quantity",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "50 buku",
+        "tail": "22",
+        "relation": "membeli_lagi",
+        "operation": "+",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=50+22",
+    "solution_gt": 72.0,
+    "template_id": "T2",
+    "difficulty": "medium"
+  },
+  {
+    "id": "T2_084",
+    "text": "Mula-mula Hendra mengumpulkan 65 lemper, lalu mendapat tambahan 35 lagi. Berapa total?",
+    "entities_gt": [
+      {
+        "text": "65 lemper",
+        "value": 65.0,
+        "unit": "lemper",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "35",
+        "value": 35.0,
+        "unit": "lemper",
+        "role": "quantity",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "65 lemper",
+        "tail": "35",
+        "relation": "membeli_lagi",
+        "operation": "+",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=65+35",
+    "solution_gt": 100.0,
+    "template_id": "T2",
+    "difficulty": "hard"
+  },
+  {
+    "id": "T2_093",
+    "text": "Di dalam kotak milik Gita ada 120 salak, lalu dimasukkan lagi 55 salak. Berapa total?",
+    "entities_gt": [
+      {
+        "text": "120 salak",
+        "value": 120.0,
+        "unit": "salak",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "55",
+        "value": 55.0,
+        "unit": "salak",
+        "role": "quantity",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "120 salak",
+        "tail": "55",
+        "relation": "membeli_lagi",
+        "operation": "+",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=120+55",
+    "solution_gt": 175.0,
+    "template_id": "T2",
+    "difficulty": "hard"
+  },
+  {
+    "id": "T2_091",
+    "text": "Farhan punya 3,5 kg beras, membeli 2 lagi. Berapa total?",
+    "entities_gt": [
+      {
+        "text": "3,5 kg beras",
+        "value": 3.5,
+        "unit": "kg beras",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "2",
+        "value": 2.0,
+        "unit": "kg beras",
+        "role": "quantity",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "3,5 kg beras",
+        "tail": "2",
+        "relation": "membeli_lagi",
+        "operation": "+",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=3.5+2",
+    "solution_gt": 5.5,
+    "template_id": "T2",
+    "difficulty": "hard"
+  },
+  {
+    "id": "T2_089",
+    "text": "Kemarin Surya mengoleksi 95 apel, hari ini membeli 45 lagi. Berapa total?",
+    "entities_gt": [
+      {
+        "text": "95 apel",
+        "value": 95.0,
+        "unit": "apel",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "45",
+        "value": 45.0,
+        "unit": "apel",
+        "role": "quantity",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "95 apel",
+        "tail": "45",
+        "relation": "membeli_lagi",
+        "operation": "+",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=95+45",
+    "solution_gt": 140.0,
+    "template_id": "T2",
+    "difficulty": "hard"
+  },
+  {
+    "id": "T2_090",
+    "text": "Aditya sudah punya 95 jeruk, kemudian membeli 75 lagi di toko. Berapa total?",
+    "entities_gt": [
+      {
+        "text": "95 jeruk",
+        "value": 95.0,
+        "unit": "jeruk",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "75",
+        "value": 75.0,
+        "unit": "jeruk",
+        "role": "quantity",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "95 jeruk",
+        "tail": "75",
+        "relation": "membeli_lagi",
+        "operation": "+",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=95+75",
+    "solution_gt": 170.0,
+    "template_id": "T2",
+    "difficulty": "hard"
+  },
+  {
+    "id": "T3_028",
+    "text": "Tono mengumpulkan 25 buku, tetapi 6 diberikan kepada adiknya. Berapa sisa?",
+    "entities_gt": [
+      {
+        "text": "25 buku",
+        "value": 25.0,
+        "unit": "buku",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "6",
+        "value": 6.0,
+        "unit": "buku",
+        "role": "quantity",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "25 buku",
+        "tail": "6",
+        "relation": "memberi",
+        "operation": "-",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=25-6",
+    "solution_gt": 19.0,
+    "template_id": "T3",
+    "difficulty": "easy"
+  },
+  {
+    "id": "T3_033",
+    "text": "Dari 25 spidol yang dimiliki Maya, sebanyak 7 rusak dan dibuang. Berapa sisa?",
+    "entities_gt": [
+      {
+        "text": "25 spidol",
+        "value": 25.0,
+        "unit": "spidol",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "7",
+        "value": 7.0,
+        "unit": "spidol",
+        "role": "quantity",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "25 spidol",
+        "tail": "7",
+        "relation": "memberi",
+        "operation": "-",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=25-7",
+    "solution_gt": 18.0,
+    "template_id": "T3",
+    "difficulty": "easy"
+  },
+  {
+    "id": "T3_030",
+    "text": "Dari persediaan 20 pulpen milik Eko, ia menyumbangkan 5 ke panti asuhan. Berapa sisa?",
+    "entities_gt": [
+      {
+        "text": "20 pulpen",
+        "value": 20.0,
+        "unit": "pulpen",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "5",
+        "value": 5.0,
+        "unit": "pulpen",
+        "role": "quantity",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "20 pulpen",
+        "tail": "5",
+        "relation": "memberi",
+        "operation": "-",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=20-5",
+    "solution_gt": 15.0,
+    "template_id": "T3",
+    "difficulty": "easy"
+  },
+  {
+    "id": "T3_003",
+    "text": "Dari 25 mangga yang dimiliki Maya, sebanyak 8 rusak dan dibuang. Berapa sisa?",
+    "entities_gt": [
+      {
+        "text": "25 mangga",
+        "value": 25.0,
+        "unit": "mangga",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "8",
+        "value": 8.0,
+        "unit": "mangga",
+        "role": "quantity",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "25 mangga",
+        "tail": "8",
+        "relation": "memberi",
+        "operation": "-",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=25-8",
+    "solution_gt": 17.0,
+    "template_id": "T3",
+    "difficulty": "easy"
+  },
+  {
+    "id": "T3_029",
+    "text": "Budi ada 15 pensil, kemudian dipakai 4 untuk acara. Berapa sisa?",
+    "entities_gt": [
+      {
+        "text": "15 pensil",
+        "value": 15.0,
+        "unit": "pensil",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "4",
+        "value": 4.0,
+        "unit": "pensil",
+        "role": "quantity",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "15 pensil",
+        "tail": "4",
+        "relation": "memberi",
+        "operation": "-",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=15-4",
+    "solution_gt": 11.0,
+    "template_id": "T3",
+    "difficulty": "easy"
+  },
+  {
+    "id": "T3_042",
+    "text": "Eko memiliki 60 stiker, kemudian memakan 28 stiker. Berapa sisa?",
+    "entities_gt": [
+      {
+        "text": "60 stiker",
+        "value": 60.0,
+        "unit": "stiker",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "28",
+        "value": 28.0,
+        "unit": "stiker",
+        "role": "quantity",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "60 stiker",
+        "tail": "28",
+        "relation": "memberi",
+        "operation": "-",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=60-28",
+    "solution_gt": 32.0,
+    "template_id": "T3",
+    "difficulty": "medium"
+  },
+  {
+    "id": "T3_057",
+    "text": "Awalnya Siska memegang 80 kue, lalu 30 terjatuh dan hilang. Berapa sisa?",
+    "entities_gt": [
+      {
+        "text": "80 kue",
+        "value": 80.0,
+        "unit": "kue",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "30",
+        "value": 30.0,
+        "unit": "kue",
+        "role": "quantity",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "80 kue",
+        "tail": "30",
+        "relation": "memberi",
+        "operation": "-",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=80-30",
+    "solution_gt": 50.0,
+    "template_id": "T3",
+    "difficulty": "medium"
+  },
+  {
+    "id": "T3_065",
+    "text": "Toko Farhan awalnya memiliki 50 kartu. Setelah terjual 25, berapa sisa?",
+    "entities_gt": [
+      {
+        "text": "50 kartu",
+        "value": 50.0,
+        "unit": "kartu",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "25",
+        "value": 25.0,
+        "unit": "kartu",
+        "role": "quantity",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "50 kartu",
+        "tail": "25",
+        "relation": "memberi",
+        "operation": "-",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=50-25",
+    "solution_gt": 25.0,
+    "template_id": "T3",
+    "difficulty": "medium"
+  },
+  {
+    "id": "T3_054",
+    "text": "Dimas menyiapkan 80 penggaris lalu membagikan 15 kepada saudaranya. Berapa sisa?",
+    "entities_gt": [
+      {
+        "text": "80 penggaris",
+        "value": 80.0,
+        "unit": "penggaris",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "15",
+        "value": 15.0,
+        "unit": "penggaris",
+        "role": "quantity",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "80 penggaris",
+        "tail": "15",
+        "relation": "memberi",
+        "operation": "-",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=80-15",
+    "solution_gt": 65.0,
+    "template_id": "T3",
+    "difficulty": "medium"
+  },
+  {
+    "id": "T3_058",
+    "text": "Tono mengumpulkan 60 roti, tetapi 28 diberikan kepada adiknya. Berapa sisa?",
+    "entities_gt": [
+      {
+        "text": "60 roti",
+        "value": 60.0,
+        "unit": "roti",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "28",
+        "value": 28.0,
+        "unit": "roti",
+        "role": "quantity",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "60 roti",
+        "tail": "28",
+        "relation": "memberi",
+        "operation": "-",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=60-28",
+    "solution_gt": 32.0,
+    "template_id": "T3",
+    "difficulty": "medium"
+  },
+  {
+    "id": "T3_068",
+    "text": "Tono mengumpulkan 120 jeruk, tetapi 60 diberikan kepada adiknya. Berapa sisa?",
+    "entities_gt": [
+      {
+        "text": "120 jeruk",
+        "value": 120.0,
+        "unit": "jeruk",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "60",
+        "value": 60.0,
+        "unit": "jeruk",
+        "role": "quantity",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "120 jeruk",
+        "tail": "60",
+        "relation": "memberi",
+        "operation": "-",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=120-60",
+    "solution_gt": 60.0,
+    "template_id": "T3",
+    "difficulty": "hard"
+  },
+  {
+    "id": "T3_091",
+    "text": "Budi punya 7,5 kg beras, memberi 2 ke teman. Berapa sisa?",
+    "entities_gt": [
+      {
+        "text": "7,5 kg beras",
+        "value": 7.5,
+        "unit": "kg beras",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "2",
+        "value": 2.0,
+        "unit": "kg beras",
+        "role": "quantity",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "7,5 kg beras",
+        "tail": "2",
+        "relation": "memberi",
+        "operation": "-",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=7.5-2",
+    "solution_gt": 5.5,
+    "template_id": "T3",
+    "difficulty": "hard"
+  },
+  {
+    "id": "T3_095",
+    "text": "Toko Farhan awalnya memiliki 150 pensil. Setelah terjual 60, berapa sisa?",
+    "entities_gt": [
+      {
+        "text": "150 pensil",
+        "value": 150.0,
+        "unit": "pensil",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "60",
+        "value": 60.0,
+        "unit": "pensil",
+        "role": "quantity",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "150 pensil",
+        "tail": "60",
+        "relation": "memberi",
+        "operation": "-",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=150-60",
+    "solution_gt": 90.0,
+    "template_id": "T3",
+    "difficulty": "hard"
+  },
+  {
+    "id": "T3_093",
+    "text": "Dari 180 salak yang dimiliki Maya, sebanyak 95 rusak dan dibuang. Berapa sisa?",
+    "entities_gt": [
+      {
+        "text": "180 salak",
+        "value": 180.0,
+        "unit": "salak",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "95",
+        "value": 95.0,
+        "unit": "salak",
+        "role": "quantity",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "180 salak",
+        "tail": "95",
+        "relation": "memberi",
+        "operation": "-",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=180-95",
+    "solution_gt": 85.0,
+    "template_id": "T3",
+    "difficulty": "hard"
+  },
+  {
+    "id": "T3_077",
+    "text": "Awalnya Siska memegang 150 spidol, lalu 95 terjatuh dan hilang. Berapa sisa?",
+    "entities_gt": [
+      {
+        "text": "150 spidol",
+        "value": 150.0,
+        "unit": "spidol",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "95",
+        "value": 95.0,
+        "unit": "spidol",
+        "role": "quantity",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "150 spidol",
+        "tail": "95",
+        "relation": "memberi",
+        "operation": "-",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=150-95",
+    "solution_gt": 55.0,
+    "template_id": "T3",
+    "difficulty": "hard"
+  },
+  {
+    "id": "T4_030",
+    "text": "Untuk pesta, Sri membeli 2 pulpen @ Rp 3.000 per buah. Berapa total?",
+    "entities_gt": [
+      {
+        "text": "2 pulpen",
+        "value": 2.0,
+        "unit": "pulpen",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "3.000",
+        "value": 3000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "2 pulpen",
+        "tail": "3.000",
+        "relation": "seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=2*3000",
+    "solution_gt": 6000.0,
+    "template_id": "T4",
+    "difficulty": "easy"
+  },
+  {
+    "id": "T4_002",
+    "text": "Rina membeli 5 jeruk dengan harga satuan Rp 3.000. Berapa total?",
+    "entities_gt": [
+      {
+        "text": "5 jeruk",
+        "value": 5.0,
+        "unit": "jeruk",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "3.000",
+        "value": 3000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "5 jeruk",
+        "tail": "3.000",
+        "relation": "seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=5*3000",
+    "solution_gt": 15000.0,
+    "template_id": "T4",
+    "difficulty": "easy"
+  },
+  {
+    "id": "T4_033",
+    "text": "Setiap spidol berharga Rp 2.000. Jika Siti membeli 4 spidol, berapa total?",
+    "entities_gt": [
+      {
+        "text": "4 spidol",
+        "value": 4.0,
+        "unit": "spidol",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "2.000",
+        "value": 2000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "4 spidol",
+        "tail": "2.000",
+        "relation": "seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=4*2000",
+    "solution_gt": 8000.0,
+    "template_id": "T4",
+    "difficulty": "easy"
+  },
+  {
+    "id": "T4_005",
+    "text": "Di toko, Surya membeli 5 salak seharga Rp 3.000 per buah. Berapa total?",
+    "entities_gt": [
+      {
+        "text": "5 salak",
+        "value": 5.0,
+        "unit": "salak",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "3.000",
+        "value": 3000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "5 salak",
+        "tail": "3.000",
+        "relation": "seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=5*3000",
+    "solution_gt": 15000.0,
+    "template_id": "T4",
+    "difficulty": "easy"
+  },
+  {
+    "id": "T4_017",
+    "text": "Rina memborong 3 biskuit @ Rp 4.000. Berapa total?",
+    "entities_gt": [
+      {
+        "text": "3 biskuit",
+        "value": 3.0,
+        "unit": "biskuit",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "4.000",
+        "value": 4000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "3 biskuit",
+        "tail": "4.000",
+        "relation": "seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=3*4000",
+    "solution_gt": 12000.0,
+    "template_id": "T4",
+    "difficulty": "easy"
+  },
+  {
+    "id": "T4_060",
+    "text": "Untuk pesta, Surya membeli 12 permen @ Rp 8.000 per buah. Berapa total?",
+    "entities_gt": [
+      {
+        "text": "12 permen",
+        "value": 12.0,
+        "unit": "permen",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "8.000",
+        "value": 8000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "12 permen",
+        "tail": "8.000",
+        "relation": "seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=12*8000",
+    "solution_gt": 96000.0,
+    "template_id": "T4",
+    "difficulty": "medium"
+  },
+  {
+    "id": "T4_066",
+    "text": "Maya memesan 12 balon dengan tarif Rp 15.000 tiap unit. Berapa total?",
+    "entities_gt": [
+      {
+        "text": "12 balon",
+        "value": 12.0,
+        "unit": "balon",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "15.000",
+        "value": 15000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "12 balon",
+        "tail": "15.000",
+        "relation": "seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=12*15000",
+    "solution_gt": 180000.0,
+    "template_id": "T4",
+    "difficulty": "medium"
+  },
+  {
+    "id": "T4_038",
+    "text": "Harga sebuah permen adalah Rp 7.500. Nadia membeli 8 permen. Berapa total?",
+    "entities_gt": [
+      {
+        "text": "8 permen",
+        "value": 8.0,
+        "unit": "permen",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "7.500",
+        "value": 7500.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "8 permen",
+        "tail": "7.500",
+        "relation": "seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=8*7500",
+    "solution_gt": 60000.0,
+    "template_id": "T4",
+    "difficulty": "medium"
+  },
+  {
+    "id": "T4_059",
+    "text": "Ratna memerlukan 12 donat yang masing-masing harganya Rp 6.000. Berapa total?",
+    "entities_gt": [
+      {
+        "text": "12 donat",
+        "value": 12.0,
+        "unit": "donat",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "6.000",
+        "value": 6000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "12 donat",
+        "tail": "6.000",
+        "relation": "seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=12*6000",
+    "solution_gt": 72000.0,
+    "template_id": "T4",
+    "difficulty": "medium"
+  },
+  {
+    "id": "T4_063",
+    "text": "Setiap kelereng berharga Rp 8.000. Jika Nadia membeli 15 kelereng, berapa total?",
+    "entities_gt": [
+      {
+        "text": "15 kelereng",
+        "value": 15.0,
+        "unit": "kelereng",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "8.000",
+        "value": 8000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "15 kelereng",
+        "tail": "8.000",
+        "relation": "seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=15*8000",
+    "solution_gt": 120000.0,
+    "template_id": "T4",
+    "difficulty": "medium"
+  },
+  {
+    "id": "T4_098",
+    "text": "Harga sebuah penggaris adalah Rp 35.000. Putri membeli 40 penggaris. Berapa total?",
+    "entities_gt": [
+      {
+        "text": "40 penggaris",
+        "value": 40.0,
+        "unit": "penggaris",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "35.000",
+        "value": 35000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "40 penggaris",
+        "tail": "35.000",
+        "relation": "seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=40*35000",
+    "solution_gt": 1400000.0,
+    "template_id": "T4",
+    "difficulty": "hard"
+  },
+  {
+    "id": "T4_083",
+    "text": "Setiap biskuit berharga Rp 45.000. Jika Putri membeli 40 biskuit, berapa total?",
+    "entities_gt": [
+      {
+        "text": "40 biskuit",
+        "value": 40.0,
+        "unit": "biskuit",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "45.000",
+        "value": 45000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "40 biskuit",
+        "tail": "45.000",
+        "relation": "seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=40*45000",
+    "solution_gt": 1800000.0,
+    "template_id": "T4",
+    "difficulty": "hard"
+  },
+  {
+    "id": "T4_089",
+    "text": "Dewi memerlukan 40 apel yang masing-masing harganya Rp 35.000. Berapa total?",
+    "entities_gt": [
+      {
+        "text": "40 apel",
+        "value": 40.0,
+        "unit": "apel",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "35.000",
+        "value": 35000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "40 apel",
+        "tail": "35.000",
+        "relation": "seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=40*35000",
+    "solution_gt": 1400000.0,
+    "template_id": "T4",
+    "difficulty": "hard"
+  },
+  {
+    "id": "T4_096",
+    "text": "Budi memesan 50 pulpen dengan tarif Rp 25.000 tiap unit. Berapa total?",
+    "entities_gt": [
+      {
+        "text": "50 pulpen",
+        "value": 50.0,
+        "unit": "pulpen",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "25.000",
+        "value": 25000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "50 pulpen",
+        "tail": "25.000",
+        "relation": "seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=50*25000",
+    "solution_gt": 1250000.0,
+    "template_id": "T4",
+    "difficulty": "hard"
+  },
+  {
+    "id": "T4_073",
+    "text": "Setiap kg telur berharga Rp 18.000. Jika Siti membeli 2,5 kg telur, berapa total?",
+    "entities_gt": [
+      {
+        "text": "2,5 kg telur",
+        "value": 2.5,
+        "unit": "kg telur",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "18.000",
+        "value": 18000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "2,5 kg telur",
+        "tail": "18.000",
+        "relation": "seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=2.5*18000",
+    "solution_gt": 45000.0,
+    "template_id": "T4",
+    "difficulty": "hard"
+  },
+  {
+    "id": "T5_023",
+    "text": "Jika harga 2 apel yang dibeli Wati adalah Rp 8.000, berapa harga 4 apel?",
+    "entities_gt": [
+      {
+        "text": "2 apel",
+        "value": 2.0,
+        "unit": "apel",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "8.000",
+        "value": 8000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      },
+      {
+        "text": "4 apel",
+        "value": 4.0,
+        "unit": "apel",
+        "role": "variable",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "2 apel",
+        "tail": "8.000",
+        "relation": "seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=(8000/2)*4",
+    "solution_gt": 16000.0,
+    "template_id": "T5",
+    "difficulty": "easy"
+  },
+  {
+    "id": "T5_031",
+    "text": "Farhan beli 5 penghapus seharga Rp 20.000. Berapa harga 4 penghapus?",
+    "entities_gt": [
+      {
+        "text": "5 penghapus",
+        "value": 5.0,
+        "unit": "penghapus",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "20.000",
+        "value": 20000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      },
+      {
+        "text": "4 penghapus",
+        "value": 4.0,
+        "unit": "penghapus",
+        "role": "variable",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "5 penghapus",
+        "tail": "20.000",
+        "relation": "seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=(20000/5)*4",
+    "solution_gt": 16000.0,
+    "template_id": "T5",
+    "difficulty": "easy"
+  },
+  {
+    "id": "T5_029",
+    "text": "Uang Rp 12.000 dibayarkan Tiara untuk 4 pensil. Berapa harga 5 pensil sejenis?",
+    "entities_gt": [
+      {
+        "text": "4 pensil",
+        "value": 4.0,
+        "unit": "pensil",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "12.000",
+        "value": 12000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      },
+      {
+        "text": "5 pensil",
+        "value": 5.0,
+        "unit": "pensil",
+        "role": "variable",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "4 pensil",
+        "tail": "12.000",
+        "relation": "seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=(12000/4)*5",
+    "solution_gt": 15000.0,
+    "template_id": "T5",
+    "difficulty": "easy"
+  },
+  {
+    "id": "T5_025",
+    "text": "Di toko, Ayu membayar Rp 6.000 untuk 3 mangga. Berapa harga 5 mangga?",
+    "entities_gt": [
+      {
+        "text": "3 mangga",
+        "value": 3.0,
+        "unit": "mangga",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "6.000",
+        "value": 6000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      },
+      {
+        "text": "5 mangga",
+        "value": 5.0,
+        "unit": "mangga",
+        "role": "variable",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "3 mangga",
+        "tail": "6.000",
+        "relation": "seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=(6000/3)*5",
+    "solution_gt": 10000.0,
+    "template_id": "T5",
+    "difficulty": "easy"
+  },
+  {
+    "id": "T5_013",
+    "text": "Jika harga 3 kue yang dibeli Sri adalah Rp 6.000, berapa harga 2 kue?",
+    "entities_gt": [
+      {
+        "text": "3 kue",
+        "value": 3.0,
+        "unit": "kue",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "6.000",
+        "value": 6000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      },
+      {
+        "text": "2 kue",
+        "value": 2.0,
+        "unit": "kue",
+        "role": "variable",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "3 kue",
+        "tail": "6.000",
+        "relation": "seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=(6000/3)*2",
+    "solution_gt": 4000.0,
+    "template_id": "T5",
+    "difficulty": "easy"
+  },
+  {
+    "id": "T5_046",
+    "text": "Tono mengetahui bahwa 6 jeruk seharga Rp 48.000. Berapa harga 7 jeruk?",
+    "entities_gt": [
+      {
+        "text": "6 jeruk",
+        "value": 6.0,
+        "unit": "jeruk",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "48.000",
+        "value": 48000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      },
+      {
+        "text": "7 jeruk",
+        "value": 7.0,
+        "unit": "jeruk",
+        "role": "variable",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "6 jeruk",
+        "tail": "48.000",
+        "relation": "seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=(48000/6)*7",
+    "solution_gt": 56000.0,
+    "template_id": "T5",
+    "difficulty": "medium"
+  },
+  {
+    "id": "T5_060",
+    "text": "Andi memesan 12 permen seharga Rp 120.000. Berapa harga 4 permen pesanan berikutnya?",
+    "entities_gt": [
+      {
+        "text": "12 permen",
+        "value": 12.0,
+        "unit": "permen",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "120.000",
+        "value": 120000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      },
+      {
+        "text": "4 permen",
+        "value": 4.0,
+        "unit": "permen",
+        "role": "variable",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "12 permen",
+        "tail": "120.000",
+        "relation": "seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=(120000/12)*4",
+    "solution_gt": 40000.0,
+    "template_id": "T5",
+    "difficulty": "medium"
+  },
+  {
+    "id": "T5_053",
+    "text": "Jika harga 12 penghapus yang dibeli Sri adalah Rp 120.000, berapa harga 3 penghapus?",
+    "entities_gt": [
+      {
+        "text": "12 penghapus",
+        "value": 12.0,
+        "unit": "penghapus",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "120.000",
+        "value": 120000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      },
+      {
+        "text": "3 penghapus",
+        "value": 3.0,
+        "unit": "penghapus",
+        "role": "variable",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "12 penghapus",
+        "tail": "120.000",
+        "relation": "seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=(120000/12)*3",
+    "solution_gt": 30000.0,
+    "template_id": "T5",
+    "difficulty": "medium"
+  },
+  {
+    "id": "T5_052",
+    "text": "Dengan Rp 64.000, Aditya memperoleh 8 pulpen. Berapa harga 5 pulpen?",
+    "entities_gt": [
+      {
+        "text": "8 pulpen",
+        "value": 8.0,
+        "unit": "pulpen",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "64.000",
+        "value": 64000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      },
+      {
+        "text": "5 pulpen",
+        "value": 5.0,
+        "unit": "pulpen",
+        "role": "variable",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "8 pulpen",
+        "tail": "64.000",
+        "relation": "seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=(64000/8)*5",
+    "solution_gt": 40000.0,
+    "template_id": "T5",
+    "difficulty": "medium"
+  },
+  {
+    "id": "T5_035",
+    "text": "Di toko, Dewi membayar Rp 45.000 untuk 6 kue. Berapa harga 15 kue?",
+    "entities_gt": [
+      {
+        "text": "6 kue",
+        "value": 6.0,
+        "unit": "kue",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "45.000",
+        "value": 45000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      },
+      {
+        "text": "15 kue",
+        "value": 15.0,
+        "unit": "kue",
+        "role": "variable",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "6 kue",
+        "tail": "45.000",
+        "relation": "seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=(45000/6)*15",
+    "solution_gt": 112500.0,
+    "template_id": "T5",
+    "difficulty": "medium"
+  },
+  {
+    "id": "T5_096",
+    "text": "Dimas mengetahui bahwa 15 pulpen seharga Rp 375.000. Berapa harga 18 pulpen?",
+    "entities_gt": [
+      {
+        "text": "15 pulpen",
+        "value": 15.0,
+        "unit": "pulpen",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "375.000",
+        "value": 375000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      },
+      {
+        "text": "18 pulpen",
+        "value": 18.0,
+        "unit": "pulpen",
+        "role": "variable",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "15 pulpen",
+        "tail": "375.000",
+        "relation": "seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=(375000/15)*18",
+    "solution_gt": 450000.0,
+    "template_id": "T5",
+    "difficulty": "hard"
+  },
+  {
+    "id": "T5_072",
+    "text": "Dengan Rp 600.000, Aditya memperoleh 20 buku. Berapa harga 8 buku?",
+    "entities_gt": [
+      {
+        "text": "20 buku",
+        "value": 20.0,
+        "unit": "buku",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "600.000",
+        "value": 600000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      },
+      {
+        "text": "8 buku",
+        "value": 8.0,
+        "unit": "buku",
+        "role": "variable",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "20 buku",
+        "tail": "600.000",
+        "relation": "seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=(600000/20)*8",
+    "solution_gt": 240000.0,
+    "template_id": "T5",
+    "difficulty": "hard"
+  },
+  {
+    "id": "T5_069",
+    "text": "Uang Rp 300.000 dibayarkan Tiara untuk 12 mangga. Berapa harga 8 mangga sejenis?",
+    "entities_gt": [
+      {
+        "text": "12 mangga",
+        "value": 12.0,
+        "unit": "mangga",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "300.000",
+        "value": 300000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      },
+      {
+        "text": "8 mangga",
+        "value": 8.0,
+        "unit": "mangga",
+        "role": "variable",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "12 mangga",
+        "tail": "300.000",
+        "relation": "seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=(300000/12)*8",
+    "solution_gt": 200000.0,
+    "template_id": "T5",
+    "difficulty": "hard"
+  },
+  {
+    "id": "T5_090",
+    "text": "Laras memesan 10 jeruk seharga Rp 200.000. Berapa harga 25 jeruk pesanan berikutnya?",
+    "entities_gt": [
+      {
+        "text": "10 jeruk",
+        "value": 10.0,
+        "unit": "jeruk",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "200.000",
+        "value": 200000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      },
+      {
+        "text": "25 jeruk",
+        "value": 25.0,
+        "unit": "jeruk",
+        "role": "variable",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "10 jeruk",
+        "tail": "200.000",
+        "relation": "seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=(200000/10)*25",
+    "solution_gt": 500000.0,
+    "template_id": "T5",
+    "difficulty": "hard"
+  },
+  {
+    "id": "T5_077",
+    "text": "Bagus membeli 10 spidol menghabiskan Rp 200.000. Berapa harga 18 spidol?",
+    "entities_gt": [
+      {
+        "text": "10 spidol",
+        "value": 10.0,
+        "unit": "spidol",
+        "role": "quantity",
+        "confidence": 1.0
+      },
+      {
+        "text": "200.000",
+        "value": 200000.0,
+        "unit": "rupiah",
+        "role": "price",
+        "confidence": 1.0
+      },
+      {
+        "text": "18 spidol",
+        "value": 18.0,
+        "unit": "spidol",
+        "role": "variable",
+        "confidence": 1.0
+      }
+    ],
+    "relations_gt": [
+      {
+        "head": "10 spidol",
+        "tail": "200.000",
+        "relation": "seharga",
+        "operation": "*",
+        "confidence": 1.0
+      }
+    ],
+    "equation_gt": "x=(200000/10)*18",
+    "solution_gt": 360000.0,
+    "template_id": "T5",
+    "difficulty": "hard"
+  }
+]
