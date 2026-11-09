@@ -14,16 +14,22 @@ from pathlib import Path
 BASE_DIR = Path(__file__).parent
 if str(BASE_DIR) not in sys.path:
     sys.path.insert(0, str(BASE_DIR))
+_src_dir = BASE_DIR / "src"
+if str(_src_dir) not in sys.path:
+    sys.path.insert(0, str(_src_dir))
 
 try:
+    from src.nlp_module import extract_entities, extract_relations, detect_question_type
+    from src.kg_module import build_knowledge_graph, build_equation
+    from src.symbolic_module import solve_symbolic
+    from contracts import canonicalize_equation
+    from mock_data import MOCK_SOAL
+except ImportError:
     from nlp_module import extract_entities, extract_relations, detect_question_type
     from kg_module import build_knowledge_graph, build_equation
     from symbolic_module import solve_symbolic
     from contracts import canonicalize_equation
     from mock_data import MOCK_SOAL
-except ImportError as e:
-    st.error(f"Gagal mengimpor modul MathSense: {e}")
-
 # ── Page Configuration ──────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="MathSense-ID — Neuro-Symbolic Math Problem Solver",
